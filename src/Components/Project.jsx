@@ -27,7 +27,7 @@ function Project() {
       Logo: research,
       Description:
         "AI-powered tracking of network performance and SLA compliance in real-time. Detects breaches early, prevents downtime, and ensures optimal connectivity with live dashboards and automated alerts. Keeps networks efficient and users happy.",
-      link: "https://github.com/Matrix9339/JustBooked",
+      link: "https://github.com/Matrix9339/Intelligent-SLA-network-Monitoring",
       Img: sla,
       Type:"Research",
       Domain:"Cloud",
@@ -38,7 +38,7 @@ function Project() {
       Logo: petalogo,
       Description:
         "A hackathon project aimed at promoting wildlife awareness and conservation. Developed a web application with secure user authentication, animal data management, and awareness content. The app enables users to explore endangered species, report sightings, and access conservation resources.",
-      link: "https://github.com/Matrix9339/JustBooked",
+      link: "https://github.com/Matrix9339/PETACARE_FINAL",
       Img: petacare,
       Type:"Project",
       Domain:"Web Development",
