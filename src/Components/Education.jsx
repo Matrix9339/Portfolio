@@ -21,17 +21,16 @@ export default function Education() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className="flex flex-col lg:flex-row lg:gap-8 flex-wrap w-full h-full p-2"
+      className="flex flex-col w-full h-full p-2 md:p-4"
     >
-      <div className="flex-1 flex flex-row flex-wrap-reverse order-2 lg:order-1 rounded-lg p-1 backdrop-blur-sm my-[140px] lg:my-auto">
-        {/* Changed max-w-6xl to max-w-7xl to increase width */}
-        <div className="text-white max-w-7xl mx-auto w-full">
+      <div className="w-full rounded-lg p-2 backdrop-blur-sm my-8 lg:my-12">
+        <div className="text-white w-full">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="text-5xl mt-15 hover:rotate-6 duration-300 font-bold mb-10 text-center text-red-400">
+            <h1 className="text-4xl md:text-5xl mt-8 md:mt-15 hover:rotate-6 duration-300 font-bold mb-8 md:mb-10 text-center text-red-400">
               Education Timeline
             </h1>
 
@@ -56,13 +55,13 @@ export default function Education() {
                   location: "Kolkata, West Bengal",
                 },
               ].map((item, index) => (
-                <TimelineItem key={index} className="my-8">
+                <TimelineItem key={index} className="my-4 md:my-8">
                   <TimelineOppositeContent
                     sx={{
-                      padding: "6px 16px",
-                      fontSize: "1.2rem", // Equivalent to text-4xl (36px)
+                      padding: "4px 12px",
+                      fontSize: { xs: "0.9rem", sm: "1rem", md: "1.2rem" },
                       "& .MuiTimelineOppositeContent-root": {
-                        fontSize: "inherit", // Ensures the size applies properly
+                        fontSize: "inherit",
                       },
                     }}
                   >
@@ -84,8 +83,8 @@ export default function Education() {
                       <TimelineDot
                         sx={{
                           backgroundColor: "#f87171",
-                          width: 20,
-                          height: 20,
+                          width: { xs: 16, md: 20 },
+                          height: { xs: 16, md: 20 },
                           boxShadow: "0 0 10px rgba(248, 113, 113, 0.7)",
                         }}
                       />
@@ -93,7 +92,7 @@ export default function Education() {
                     {index !== 3 && (
                       <TimelineConnector
                         sx={{
-                          height: 100,
+                          height: { xs: 80, md: 100 },
                           backgroundColor: "rgba(255,255,255,0.2)",
                           width: 2,
                         }}
@@ -101,17 +100,17 @@ export default function Education() {
                     )}
                   </TimelineSeparator>
 
-                  <TimelineContent sx={{ padding: "12px 16px" }}>
+                  <TimelineContent sx={{ padding: { xs: "8px 12px", md: "12px 16px" } }}>
                     <motion.div
                       initial={{ x: 50, opacity: 0 }}
                       animate={{ x: 0, opacity: 1 }}
                       transition={{ duration: 0.5, delay: index * 0.2 }}
-                      className="p-6 rounded-lg bg-gradient-to-r from-gray-800 to-gray-900 shadow-lg hover:shadow-red-500/20 transition-all duration-300"
+                      className="p-4 md:p-6 rounded-lg bg-gradient-to-r from-gray-800 to-gray-900 shadow-lg hover:shadow-red-500/20 transition-all duration-300"
                     >
-                      <h2 className="text-red-400 text-2xl font-bold mb-2">
+                      <h2 className="text-red-400 text-xl md:text-2xl font-bold mb-2">
                         {item.degree}
                       </h2>
-                      <div className="text-xl">
+                      <div className="text-base md:text-xl">
                         <p className="font-medium">{item.institution}</p>
                         <p className="text-gray-400">{item.location}</p>
                       </div>

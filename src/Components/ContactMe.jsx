@@ -25,12 +25,12 @@ function ContactMe() {
 
   return (
     <div className="flex flex-col mt-25 lg:flex-row gap-4 lg:gap-8 flex-wrap w-full h-full p-2">
-      <div className="flex-1 flex flex-col  order-2 lg:order-1 rounded-lg p-6  flex-wrap my-5 backdrop-blur-sm gap-10">
+      <div className="flex-1 flex flex-col  order-2 lg:order-1 rounded-lg p-2  flex-wrap my-5 backdrop-blur-sm gap-10">
         <div>
-          <div className="min-h-[50vh] flex items-center justify-center p-4">
+          <div className="min-h-[50vh] flex items-center justify-center ">
             <div className="w-full max-w-md  rounded-lg p-6">
               <div className="flex justify-center  items-center mb-6">
-                <h2 className="text-5xl hover:rotate-6 font-bold text-gray-900 dark:text-red-400 my-5">
+                <h2 className="text-5xl hover:rotate-6 font-bold text-gray-900 dark:text-red-400 my-5 text-center">
                   CONTACT ME
                 </h2>
               </div>

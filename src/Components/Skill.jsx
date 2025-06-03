@@ -39,7 +39,7 @@ function Skill() {
   return (
     <div className='flex flex-col lg:flex-row gap-4 lg:gap-8 flex-wrap w-full h-full p-2'>
       {/* Right Column - Skills */}
-        <div className="flex-1  flex flex-col justify-evenly items-center p-6 backdrop-blur-sm rounded-lg">
+        <div className="flex-1  flex flex-col justify-evenly items-center p-2 backdrop-blur-sm rounded-lg">
           {/* Hands-on Experience Title */}
           <div className="text-white text-center p-4 lg:pt-8 px-4">
             <h2 className="text-red-400 hover:rotate-6 duration-300 text-5xl font-bold">
@@ -50,7 +50,7 @@ function Skill() {
           {/* Skills Sections */}
           <div className="flex  justify-center flex-row flex-wrap gap-15 my-6 p-6 ">
             {/* Development */}
-            <div className="flex flex-col items-center text-white cursor-default">
+            <div className="flex flex-col items-center text-white cursor-default text-center">
               <p className=" text-2xl sm:text-2xl md:text-2xl mb-4">
                 Programming Languages
               </p>
@@ -64,7 +64,7 @@ function Skill() {
                 
               </div>
             </div>
-            <div className="flex flex-col items-center text-white cursor-default">
+            <div className="flex flex-col items-center text-white cursor-default text-center">
               <p className=" text-2xl sm:text-2xl md:text-2xl mb-4">
                 Frontend Development
               </p>
