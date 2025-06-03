@@ -30,7 +30,7 @@ function ContactMe() {
           <div className="min-h-[50vh] flex items-center justify-center ">
             <div className="w-full max-w-md  rounded-lg p-6">
               <div className="flex justify-center  items-center mb-6">
-                <h2 className="text-5xl hover:rotate-6 font-bold text-gray-900 dark:text-red-400 my-5 text-center">
+                <h2 className="text-5xl hover:rotate-6 font-bold text-red-400 my-5 text-center">
                   CONTACT ME
                 </h2>
               </div>
@@ -38,7 +38,7 @@ function ContactMe() {
                 <div className="mb-6 mt-5">
                   <label
                     htmlFor="email"
-                    className="block mb-2  font-medium text-2xl text-gray-900 dark:text-gray-300"
+                    className="block mb-2  font-medium text-2xl text-gray-300"
                   >
                     Your Name
                   </label>
@@ -54,7 +54,7 @@ function ContactMe() {
                 <div className="mb-6 mt-5">
                   <label
                     htmlFor="email"
-                    className="block mb-2  font-medium text-2xl text-gray-900 dark:text-gray-300"
+                    className="block mb-2  font-medium text-2xl text-gray-300"
                   >
                     Your email
                   </label>
@@ -70,7 +70,7 @@ function ContactMe() {
                 <div className="mb-6">
                   <label
                     htmlFor="subject"
-                    className="block mb-2 font-medium text-gray-900 dark:text-gray-300 text-2xl"
+                    className="block mb-2 font-medium text-gray-300 text-2xl"
                   >
                     Subject
                   </label>
@@ -86,7 +86,7 @@ function ContactMe() {
                 <div className="mb-6">
                   <label
                     htmlFor="message"
-                    className="block mb-2 text-2xl font-medium text-gray-900 dark:text-gray-300"
+                    className="block mb-2 text-2xl font-medium text-gray-300"
                   >
                     Your message
                   </label>
@@ -108,7 +108,7 @@ function ContactMe() {
                   </button>
                 </div>
                 <div className="text-center  justify-center items-center">
-                  <p className="mb-2 flex gap-3 text-sm justify-center items-center text-gray-500 dark:text-gray-400">
+                  <p className="mb-2 flex gap-3 text-sm justify-center items-center text-gray-400">
                     <MdOutlineMail className="size-5" />
                     <a
                       href="mailto:himanshusingh98360@gmail.com"
@@ -117,7 +117,7 @@ function ContactMe() {
                        himanshusingh98360@gmail.com
                     </a>
                   </p>
-                  <p className="text-sm flex gap-3 text-gray-500 justify-center items-center dark:text-gray-400">
+                  <p className="text-sm flex gap-3 justify-center items-center text-gray-400">
                     <MdCall className="size-5" />
                     <a href="tel:+919339229707" className="hover:underline">
                        +91-9339229707
