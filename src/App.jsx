@@ -6,6 +6,7 @@ import Education from "./Components/Education.jsx"
 import Skill from "./Components/Skill.jsx"
 import Project from "./Components/Project.jsx"
 import Contact from "./Components/ContactMe.jsx"
+import Exp from "./Components/ProfExp.jsx"
 
 
 function App() {
@@ -19,8 +20,9 @@ function App() {
         <div id="content"><Content/></div>
         <div id="aboutMe"><AboutMe/></div>
         <div id="skill"><Skill/></div>
-        <div id="education"><Education/></div>
+        <div id="exp"><Exp/></div>
         <div id="project"><Project/></div>
+        <div id="education"><Education/></div>
         <div id="contact"><Contact/></div>
       </div>
     </>

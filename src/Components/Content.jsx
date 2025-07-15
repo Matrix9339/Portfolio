@@ -3,6 +3,7 @@ import "./content.css";
 import my_img from "../assets/myImg.png";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 import { IoMdDownload } from "react-icons/io";
+import resume from "../../public/Himanshu_singh_Resume_Software_Engineer.pdf";
 
 import { motion } from "framer-motion";
 
@@ -16,7 +17,7 @@ function Content() {
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
 
   const handleDownload = () => {
-    const fileUrl = "../../public/resume_updated.pdf"; 
+    const fileUrl = resume; 
     const fileName = "Himanshu_Singh_Resume.pdf";
 
     const link = document.createElement("a");

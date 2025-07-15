@@ -41,13 +41,13 @@ function Navbar() {
         </li>
         <li className="hover:text-red-400 hover:rotate-6 cursor-pointer transition-colors duration-300 ease-in-out">
           <Link
-            to="education"
+            to="exp"
             smooth={true}
             duration={600}
             offset={-70}
             className="hover:text-red-400 duration-300 cursor-pointer"
           >
-            Education
+            Work Experience
           </Link>
         </li>
         <li className="hover:text-red-400 hover:rotate-6 cursor-pointer transition-colors duration-300 ease-in-out">
@@ -59,6 +59,17 @@ function Navbar() {
             className="hover:text-red-400 duration-300 cursor-pointer"
           >
             Projects
+          </Link>
+        </li>
+        <li className="hover:text-red-400 hover:rotate-6 cursor-pointer transition-colors duration-300 ease-in-out">
+          <Link
+            to="education"
+            smooth={true}
+            duration={600}
+            offset={-70}
+            className="hover:text-red-400 duration-300 cursor-pointer"
+          >
+            Education
           </Link>
         </li>
         <li className="hover:text-red-400 hover:rotate-6 cursor-pointer transition-colors duration-300 ease-in-out">

@@ -30,7 +30,7 @@ function ContactMe() {
           <div className="min-h-[50vh] flex items-center justify-center ">
             <div className="w-full max-w-md  rounded-lg p-6">
               <div className="flex justify-center  items-center mb-6">
-                <h2 className="text-5xl hover:rotate-6 font-bold text-red-400 my-5 text-center">
+                <h2 className="lg:text-6xl text-4xl hover:rotate-6 font-bold text-red-400 my-5 text-center">
                   CONTACT ME
                 </h2>
               </div>

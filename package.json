@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "postinstall": "flowbite-react patch",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r https://<TOKEN>@github.com/Matrix9339/Portfolio.git"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",

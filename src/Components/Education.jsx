@@ -23,14 +23,14 @@ export default function Education() {
       transition={{ duration: 0.5 }}
       className="flex flex-col w-full h-full p-2 md:p-4"
     >
-      <div className="w-full rounded-lg p-2 backdrop-blur-sm my-8 lg:my-12">
+      <div className="w-full rounded-lg p-2 backdrop-blur-sm my-8 lg:my-5">
         <div className="text-white w-full">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="text-4xl md:text-5xl mt-8 md:mt-15 hover:rotate-6 duration-300 font-bold mb-8 md:mb-10 text-center text-red-400">
+            <h1 className="text-4xl lg:text-6xl md:text-5xl mt-8 md:mt-15 hover:rotate-6 duration-300 font-bold mb-8 md:mb-10 text-center text-red-400">
               Education Timeline
             </h1>
 

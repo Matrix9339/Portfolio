@@ -10,6 +10,7 @@ import research from "../assets/research.jpg";
 import sla from "../assets/sla.png";
 import resbg from "../assets/mlaidata-modelling.webp";
 import jb from "../assets/jb.png";
+import ACR from "../assets/ACR.png";
 import { FaReact } from "react-icons/fa";
 import { AiOutlineHtml5 } from "react-icons/ai";
 import { TbBrandCss3 } from "react-icons/tb";
@@ -21,62 +22,17 @@ import { GrOracle } from "react-icons/gr";
 import { SiMysql } from "react-icons/si";
 import { RiTailwindCssLine } from "react-icons/ri";
 
-function Project() {
+function ProfExp() {
   let data = [
+    
     {
-      Title: "EIRIS SCAN FOR DISEASE PREDICTION USING MACHINE LEARNING",
-      Logo: research,
-      Description:
-        "Combines advanced medical imaging with machine learning to detect diseases early. It uses deep learning algorithms to analyze scans (CT, MRI, X-ray) for signs of cancer, neurological disorders, and cardiovascular risks.",
-      link: "",
-      Img: resbg,
-      Type: "Research",
-      Domain: "AI & ML",
-      Tech: [MdDoNotDisturb],
-    },
-    {
-      Title: "Intelligent SLA & Realtime Network Monitoring",
-      Logo: research,
-      Description:
-        "AI-powered tracking of network performance and SLA compliance in real-time. Detects breaches early, prevents downtime, and ensures optimal connectivity with live dashboards and automated alerts. Keeps networks efficient and users happy.",
-      link: "https://github.com/Matrix9339/Intelligent-SLA-network-Monitoring",
-      Img: sla,
-      Type: "Research",
-      Domain: "Cloud",
-      Tech: [MdDoNotDisturb],
-    },
-    {
-      Title: "PetaCare",
-      Logo: petalogo,
-      Description:
-        "A hackathon project aimed at promoting wildlife awareness and conservation. Developed a web application with secure user authentication, animal data management, and awareness content. The app enables users to explore endangered species, report sightings, and access conservation resources.",
-      link: "https://github.com/Matrix9339/PETACARE_FINAL",
-      Img: petacare,
-      Type: "Project",
-      Domain: "Web Development",
-      Tech: [AiOutlineHtml5, TbBrandCss3, TbBrandJavascript, FaJava, GrOracle],
-    },
-    {
-      Title: "AutoSpecs",
-      Logo: autospecsLogo,
-      Description:
-        "A sleek, responsive web application built to browse an extensive collection of cars with detailed specifications. Filter by make, model, or price, and book a test drive effortlessly. Ideal for car enthusiasts, dealerships, or as a demo for modern front-end development.",
-      link: "https://github.com/Matrix9339/AutoSpecs",
-      Img: autospecs,
-      Type: "Project",
-      Domain: "Web Development",
-      Tech: [FaReact, SiSpring, SiMysql],
-    },
-    {
-      Title: "JustBooked",
-      Logo: jbLogo,
-      Description:
-        "A seamless platform for booking cabs, hotels, flights, and trains in one place. Designed for travelers who value convenience, it offers real-time availability, competitive pricing, and instant confirmations—simplifying every step of your journey.",
-      link: "https://github.com/Matrix9339/JustBooked",
-      Img: jb,
-      Type: "Project",
-      Domain: "Web Development",
-      Tech: [AiOutlineHtml5, TbBrandCss3, TbBrandJavascript, FaJava, GrOracle],
+      Title: "Advanced Computer Ranchi",
+      Date: "FEB 2025 - JUN 2025",
+      Description:"I built a high-performance client website using React.js and Tailwind CSS, focusing on responsive design and optimal user experience. By implementing code-splitting, lazy loading, and React component optimization, I achieved a 30% improvement in page load speeds. Working closely with stakeholders, I delivered scalable and maintainable front-end solutions tailored to the project’s requirements.",
+      link: "https://acrranchi.github.io/ACR",
+      Img: ACR,
+      Designation: "Web Developer",
+      Tech: [FaReact, RiTailwindCssLine],
     },
   ];
   return (
@@ -84,7 +40,7 @@ function Project() {
       <div className="flex-1 flex flex-col order-2 lg:order-1 rounded-lg flex-wrap p-3 my-4 backdrop-blur-sm gap-10">
         <div className="flex-1 order-0 lg:order-1 flex items-center justify-center p-2">
           <h1 className="text-red-400 lg:text-6xl text-4xl font-bold rotate-0  items-center lg:-rotate-90 hover:rotate-7 duration-300 transform origin-center h-fit text-center">
-            Projects & Research
+            Work Experience
           </h1>
         </div>
 
@@ -104,18 +60,21 @@ function Project() {
                   />
                 </div>
                 <div className="flex flex-col h-full">
-                  <div className="flex flex-row gap-4 items-center">
-                    <img
-                      src={data.Logo}
-                      alt=""
-                      className="size-10 rounded-4xl"
-                    />
+                  <div className="flex flex-col gap-4 items-start">
+                    
                     <h5
                       className="text-[20px] font-bold tracking-tight
                     text-white
                     hover:text-red-400"
                     >
                       {data.Title}
+                      <h1
+                      className="text-[15px] font-bold tracking-tight
+                    text-white
+                    hover:text-red-400"
+                    >
+                      {data.Date}
+                    </h1>
                     </h5>
                   </div>
 
@@ -123,8 +82,7 @@ function Project() {
                     {data.Description}
                   </p>
                   <div className="mt-auto">
-                    <h1 className="text-white my-2">Domain: {data.Domain}</h1>
-                    <h1 className="text-white my-2">Type: {data.Type}</h1>
+                    <h1 className="text-white my-2">Designation: {data.Designation}</h1>
                     <h1 className="text-white my-2">Tech Stack</h1>
                     <div className="px-2 flex flex-row">
                       {data.Tech.map((Icon, index) => (
@@ -145,4 +103,4 @@ function Project() {
   );
 }
 
-export default Project;
+export default ProfExp;
