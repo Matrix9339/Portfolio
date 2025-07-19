@@ -48,7 +48,7 @@ function Skill() {
           </div>
 
           {/* Skills Sections */}
-          <div className="flex  justify-center flex-row flex-wrap gap-15 my-10 p-6 ">
+          <div className="flex justify-center flex-row flex-wrap gap-15 md:gap-25 my-10 p-5 md:px-30 ">
             {/* Development */}
             <div className="flex flex-col items-center text-white cursor-default text-center">
               <p className=" text-2xl sm:text-2xl md:text-2xl mb-4">

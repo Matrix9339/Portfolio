@@ -24,7 +24,7 @@ export default function Education() {
       className="flex flex-col w-full h-full p-2 md:p-4"
     >
       <div className="w-full rounded-lg p-2 backdrop-blur-sm my-8 lg:my-5">
-        <div className="text-white w-full">
+        <div className="text-white w-full ">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -34,7 +34,7 @@ export default function Education() {
               Education Timeline
             </h1>
 
-            <Timeline position="alternate" className="w-full">
+            <Timeline position="alternate" className="w-full mb-15">
               {[
                 {
                   year: "2024 - Present",
@@ -49,8 +49,14 @@ export default function Education() {
                   location: "Kolkata, West Bengal",
                 },
                 {
-                  year: "2019 - 2021",
-                  degree: "Higher Secondary and Secondary Education",
+                  year: "2021",
+                  degree: "Higher Secondary",
+                  institution: "Hariyana Vidya Mandir",
+                  location: "Kolkata, West Bengal",
+                },
+                {
+                  year: "2019",
+                  degree: "Secondary Education",
                   institution: "Hariyana Vidya Mandir",
                   location: "Kolkata, West Bengal",
                 },
@@ -89,7 +95,7 @@ export default function Education() {
                         }}
                       />
                     </motion.div>
-                    {index !== 3 && (
+                    {index !== 4 && (
                       <TimelineConnector
                         sx={{
                           height: { xs: 80, md: 100 },
