@@ -3,14 +3,15 @@ import "./content.css";
 import my_img from "../assets/myImg.png";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 import { IoMdDownload } from "react-icons/io";
-import resume from "../../public/Himanshu_singh_Resume_Software_Engineer.pdf";
+import resume from "../../public/Himanshu_singh_Resume_Software_Engineer_col1.pdf";
 
 import { motion } from "framer-motion";
 
 function Content() {
   const roles = [
     "Software Engineer",
-    "Web Developer",
+    "Data scientist",
+    "Full Stack Web Developer",
     "Machine Learning Engineer",
     "Cloud Engineer",
   ];

@@ -82,7 +82,7 @@ function Skill() {
                 Backend Development
               </p>
               <div className="flex flex-wrap justify-center gap-4">
-                {[SiSpring, FaNodeJs, SiExpress, BiLogoMongodb, SiMysql].map((Icon, index) => (
+                {[SiSpring, FaNodeJs, SiExpress].map((Icon, index) => (
                   <Icon 
                     key={index} 
                     className="size-10 lg:size-10 text-white hover:text-red-400 transition-colors duration-300 hover:rotate-12 hover:scale-110" 
@@ -103,20 +103,7 @@ function Skill() {
                 ))}
               </div>
             </div>
-            <div className="flex flex-col items-center text-white cursor-default">
-              <p className=" text-2xl sm:text-2xl md:text-2xl mb-4 text-center">
-                Testing & Automation
-              </p>
-              <div className="flex flex-wrap justify-center gap-4">
-                {[SiSelenium, ].map((Icon, index) => (
-                  <Icon 
-                    key={index} 
-                    className="size-10 lg:size-10 text-white hover:text-red-400 transition-colors duration-300 hover:rotate-12 hover:scale-110" 
-                  />
-                ))}
-              </div>
-            </div>
-
+            
             {/* Machine Learning */}
             <div className="flex flex-col items-center text-white cursor-default">
               <div className="flex items-center gap-2 mb-2">
@@ -166,6 +153,20 @@ function Skill() {
                 ))}
               </div>
             </div>
+            <div className="flex flex-col items-center text-white cursor-default">
+              <p className=" text-2xl sm:text-2xl md:text-2xl mb-4 text-center">
+                Testing & Automation
+              </p>
+              <div className="flex flex-wrap justify-center gap-4">
+                {[SiSelenium, ].map((Icon, index) => (
+                  <Icon 
+                    key={index} 
+                    className="size-10 lg:size-10 text-white hover:text-red-400 transition-colors duration-300 hover:rotate-12 hover:scale-110" 
+                  />
+                ))}
+              </div>
+            </div>
+
             <div className="flex flex-col items-center text-white cursor-default">
               <div className="flex items-center gap-2 mb-2">
                 <p className="text-2xl sm:text-2xl md:text-2xl mb-4">

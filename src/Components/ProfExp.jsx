@@ -31,7 +31,7 @@ function ProfExp() {
       Description:"I built a high-performance client website using React.js and Tailwind CSS, focusing on responsive design and optimal user experience. By implementing code-splitting, lazy loading, and React component optimization, I achieved a 30% improvement in page load speeds. Working closely with stakeholders, I delivered scalable and maintainable front-end solutions tailored to the project’s requirements.",
       link: "https://acrranchi.github.io/ACR",
       Img: ACR,
-      Designation: "Web Developer",
+      Designation: "SDE",
       Tech: [FaReact, RiTailwindCssLine],
     },
   ];
