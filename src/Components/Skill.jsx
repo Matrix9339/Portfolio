@@ -7,6 +7,7 @@ import { SiNumpy } from "react-icons/si";
 import { SiGeopandas } from "react-icons/si";
 import { SiScikitlearn } from "react-icons/si";
 import { AiOutlineKubernetes } from "react-icons/ai";
+import { SiFlask } from "react-icons/si";
 import { SiKalilinux } from "react-icons/si";
 import { SiMacos } from "react-icons/si";
 import { LiaWindows } from "react-icons/lia";
@@ -69,7 +70,7 @@ function Skill() {
                 Frontend Development
               </p>
               <div className="flex flex-wrap justify-center gap-4">
-                {[AiOutlineHtml5, TbBrandCss3,FaReact, RiAngularjsLine, RiBootstrapLine].map((Icon, index) => (
+                {[AiOutlineHtml5, TbBrandCss3,FaReact, RiAngularjsLine,SiFlask,RiBootstrapLine].map((Icon, index) => (
                   <Icon 
                     key={index} 
                     className="size-10 lg:size-10 text-white hover:text-red-400 transition-colors duration-300 hover:rotate-12 hover:scale-110" 
