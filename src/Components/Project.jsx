@@ -7,6 +7,8 @@ import jbLogo from "../assets/logo.png";
 import petacare from "../assets/petacare.png";
 import petalogo from "../assets/homewild.png";
 import research from "../assets/research.jpg";
+import spf from "../assets/SPF.png";
+import spflogo from "../assets/spmlogo.png";
 import sla from "../assets/sla.png";
 import resbg from "../assets/mlaidata-modelling.webp";
 import jb from "../assets/jb.png";
@@ -29,11 +31,11 @@ function Project() {
   let data = [
     {
       Title: "Image2Cart: AI-Powered Similar Product Search",
-      Logo: null,
+      Logo: spflogo,
       Description:
         "real-time visual product search system using MobileNetV3 Small in PyTorch for image embedding and similarity matching.",
-      link: "",
-      Img: resbg,
+      link: "https://github.com/Matrix9339/Unthinkable_PM",
+      Img: spf,
       Type: "Project",
       Domain: "AI & ML",
       Tech: [SiAnaconda, SiNumpy, SiGeopandas, SiScikitlearn],
@@ -43,7 +45,7 @@ function Project() {
       Logo: research,
       Description:
         "AI-powered eye health analysis system integrating disease and stress prediction modules within a single dashboard for real-time ocular image evaluation",
-      link: "",
+      link: "https://github.com/Matrix9339/EIRIS-Scan-AI-Based-Eye-Health-Analysis",
       Img: resbg,
       Type: "Research Project",
       Domain: "AI & ML",
