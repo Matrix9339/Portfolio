@@ -19,7 +19,7 @@ function Content() {
 
   const handleDownload = () => {
     const fileUrl = resume; 
-    const fileName = "Himanshu_Singh_Resume.pdf";
+    const fileName = "Himanshu_Singh_Software_Engineer_Resume.pdf";
 
     const link = document.createElement("a");
     link.href = fileUrl;

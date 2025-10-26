@@ -19,18 +19,33 @@ import { FaJava } from "react-icons/fa";
 import { SiSpring } from "react-icons/si";
 import { GrOracle } from "react-icons/gr";
 import { SiMysql } from "react-icons/si";
+import { SiAnaconda } from "react-icons/si";
+import { SiNumpy } from "react-icons/si";
+import { SiGeopandas } from "react-icons/si";
+import { SiScikitlearn } from "react-icons/si";
 import { RiTailwindCssLine } from "react-icons/ri";
 
 function Project() {
   let data = [
     {
-      Title: "EIRIS SCAN FOR DISEASE PREDICTION USING MACHINE LEARNING",
-      Logo: research,
+      Title: "Image2Cart: AI-Powered Similar Product Search",
+      Logo: null,
       Description:
-        "Combines advanced medical imaging with machine learning to detect diseases early. It uses deep learning algorithms to analyze scans (CT, MRI, X-ray) for signs of cancer, neurological disorders, and cardiovascular risks.",
+        "real-time visual product search system using MobileNetV3 Small in PyTorch for image embedding and similarity matching.",
       link: "",
       Img: resbg,
-      Type: "Research",
+      Type: "Project",
+      Domain: "AI & ML",
+      Tech: [SiAnaconda, SiNumpy, SiGeopandas, SiScikitlearn],
+    },
+    {
+      Title: "EIRIS Scan - AI-Based Eye Health Analysis",
+      Logo: research,
+      Description:
+        "AI-powered eye health analysis system integrating disease and stress prediction modules within a single dashboard for real-time ocular image evaluation",
+      link: "",
+      Img: resbg,
+      Type: "Research Project",
       Domain: "AI & ML",
       Tech: [MdDoNotDisturb],
     },
