@@ -73,7 +73,7 @@ function Project() {
       Logo: null,
       Description:
         "machine learning pipeline to classify iris flowers into three species based on four botanical measurements.",
-      link: "https://github.com/Matrix9339/TodoList_Flask",
+      link: "https://github.com/Matrix9339/Iris-Flower-ML",
       Img: todo,
       Type: "Project",
       Domain: "ML",
