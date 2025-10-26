@@ -3,7 +3,7 @@ import "./content.css";
 import my_img from "../assets/myImg.png";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 import { IoMdDownload } from "react-icons/io";
-import resume from "../../public/Himanshu_singh_Resume_Software_Engineer_col1.pdf";
+import resume from "../../public/Himanshu_Singh_Software_Engineer_Resume.pdf";
 
 import { motion } from "framer-motion";
 
