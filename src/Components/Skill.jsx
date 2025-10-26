@@ -6,6 +6,8 @@ import { SiAnaconda } from "react-icons/si";
 import { SiNumpy } from "react-icons/si";
 import { SiGeopandas } from "react-icons/si";
 import { SiScikitlearn } from "react-icons/si";
+import { SiTensorflow } from "react-icons/si";
+import { SiPytorch } from "react-icons/si";
 import { AiOutlineKubernetes } from "react-icons/ai";
 import { SiFlask } from "react-icons/si";
 import { SiKalilinux } from "react-icons/si";
@@ -113,7 +115,7 @@ function Skill() {
                 </p>
               </div>
               <div className="flex flex-wrap justify-center gap-4">
-                {[ SiAnaconda, SiNumpy, SiGeopandas, SiScikitlearn].map((Icon, index) => (
+                {[ SiAnaconda, SiPytorch, SiTensorflow, SiNumpy, SiGeopandas, SiScikitlearn].map((Icon, index) => (
                   <Icon 
                     key={index} 
                     className="size-10 lg:size-10 text-white hover:text-red-400 transition-colors duration-300 hover:rotate-12 hover:scale-110" 

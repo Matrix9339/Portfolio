@@ -9,9 +9,14 @@ import petalogo from "../assets/homewild.png";
 import research from "../assets/research.jpg";
 import spf from "../assets/SPF.png";
 import spflogo from "../assets/spmlogo.png";
+import todo from "../assets/todo.png";
 import sla from "../assets/sla.png";
 import resbg from "../assets/mlaidata-modelling.webp";
 import jb from "../assets/jb.png";
+import { SiTensorflow } from "react-icons/si";
+import { SiPytorch } from "react-icons/si";
+import { SiJinja } from "react-icons/si";
+import { SiFlask } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { AiOutlineHtml5 } from "react-icons/ai";
 import { TbBrandCss3 } from "react-icons/tb";
@@ -22,6 +27,7 @@ import { SiSpring } from "react-icons/si";
 import { GrOracle } from "react-icons/gr";
 import { SiMysql } from "react-icons/si";
 import { SiAnaconda } from "react-icons/si";
+import { SiSqlalchemy } from "react-icons/si";
 import { SiNumpy } from "react-icons/si";
 import { SiGeopandas } from "react-icons/si";
 import { SiScikitlearn } from "react-icons/si";
@@ -49,7 +55,7 @@ function Project() {
       Img: resbg,
       Type: "Research Project",
       Domain: "AI & ML",
-      Tech: [MdDoNotDisturb],
+      Tech: [SiTensorflow, SiPytorch, SiAnaconda, SiNumpy, SiGeopandas, SiScikitlearn],
     },
     {
       Title: "Intelligent SLA & Realtime Network Monitoring",
@@ -61,6 +67,28 @@ function Project() {
       Type: "Research",
       Domain: "Cloud",
       Tech: [MdDoNotDisturb],
+    },
+    {
+      Title: "Iris-Flower-ML",
+      Logo: null,
+      Description:
+        "machine learning pipeline to classify iris flowers into three species based on four botanical measurements.",
+      link: "https://github.com/Matrix9339/TodoList_Flask",
+      Img: todo,
+      Type: "Project",
+      Domain: "ML",
+      Tech: [SiAnaconda, SiNumpy, SiGeopandas, SiScikitlearn],
+    },
+    {
+      Title: "Personal Productivity Dashboard",
+      Logo: spflogo,
+      Description:
+        "full-stack Todo list application to help users manage tasks efficiently, featuring user authentication and a persistent database.",
+      link: "https://github.com/Matrix9339/TodoList_Flask",
+      Img: todo,
+      Type: "Project",
+      Domain: "Web Development",
+      Tech: [SiFlask, SiJinja, SiSqlalchemy],
     },
     {
       Title: "PetaCare",
